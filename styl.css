@@ -1,0 +1,48 @@
+.slot{
+    border: 4px dashed gold;
+    width: 220px;
+    margin-left: 1200px;
+}
+.numbers{
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+.operation{
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    float: right;
+}
+#zero{
+    margin-left: 54px;
+}
+.last{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+#Screen{
+    height: 200px;
+    border: 5px double darkgreen;
+    font-size: 100px;
+}
+h1{
+    border: 2px dotted cyan;
+    border-radius: 50%;
+    background-color: silver;
+    color: limegreen;
+    width: 200px;
+    text-align: center;
+    margin: 0px auto;
+}
+#turnBack{
+    background-color: aquamarine;
+    width: 150px;
+    margin-left: -75px;
+}
+#turnBack:hover{
+    margin-left: 0px;
+}

@@ -101,7 +101,7 @@ document.getElementById("9").addEventListener('click', function(){
         number2 += 9;
     }
 });
-document.getElementById("0").addEventListener('click', function(){
+document.getElementById("zero").addEventListener('click', function(){
     plane.innerHTML = plane.innerHTML + "0";
     if (operation < 1){
         number1 = number1 * 10;
