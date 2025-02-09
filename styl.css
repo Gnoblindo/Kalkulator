@@ -27,10 +27,11 @@ h1{
     margin-left: 0px;
 }
 button {
+    text-align: center;
     border: 3px solid black;
-    height: 50px;
-    width: 50px;
-    font-size: 30px;
+    min-height: 50px;
+    min-width: 50px;
+    font-size: 25px;
     margin: 5px;
     border-radius: 5px;
     background-color: #f0f0f0;
@@ -39,8 +40,13 @@ button {
     transition: all 0.2s ease;
 }
 
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
 #AC{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 button:active {
